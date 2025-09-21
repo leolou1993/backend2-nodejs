@@ -1,0 +1,17 @@
+{
+  "name": "moovup-test",
+  "version": "1.0.0",
+  "description": "singleton for rate limiter",
+  "main": "Bucket.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^11.7.2"
+  },
+  "devDependencies": {
+    "chai": "^4.5.0"
+  }
+}

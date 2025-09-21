@@ -1,6 +1,8 @@
 Leaky Bucket
 env: Nodejs
-command to run test: "npm mocha test/testCase.js"
+
+init project: "npm install"
+command to run test: "npx mocha ./test/testCase.js"
 
 evaulation:
 singleton for rate limiter: since there should be only one rate limiter to control application access
